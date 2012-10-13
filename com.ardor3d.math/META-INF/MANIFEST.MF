@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: com.ardor3d.math;uses:="com.ardor3d.util.export,com.ardor3d.math.type",
+ com.ardor3d.math.functions;uses:="com.ardor3d.math,com.ardor3d.math.type",
+ com.ardor3d.math.type;uses:="com.ardor3d.math"
+Built-By: amivanoff
+Tool: Bnd-1.15.0
+Bundle-Name: Ardor 3D Math
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 0.8.0.SNAPSHOT
+Build-Jdk: 1.6.0_33
+Bnd-LastModified: 1349642621858
+Bundle-ManifestVersion: 2
+Import-Package: com.ardor3d.util.export
+Bundle-SymbolicName: com.ardor3d.math

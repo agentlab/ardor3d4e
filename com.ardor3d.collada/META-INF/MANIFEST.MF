@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Export-Package: com.ardor3d.extension.model.collada.jdom;uses:="com.go
+ ogle.common.collect,com.ardor3d.extension.model.collada.jdom.data,org
+ .jdom,com.ardor3d.extension.animation.skeletal.clip,com.ardor3d.scene
+ graph,com.ardor3d.extension.animation.skeletal,com.ardor3d.math,com.a
+ rdor3d.scenegraph.hint,com.ardor3d.util.export.binary,com.ardor3d.ren
+ derer.state,com.ardor3d.util.geom,com.ardor3d.util.export,com.ardor3d
+ .math.type,org.jdom.xpath,org.jdom.input,org.xml.sax,com.ardor3d.util
+ .resource,com.ardor3d.util,com.ardor3d.renderer.queue,com.ardor3d.ima
+ ge,com.ardor3d.renderer",com.ardor3d.extension.model.collada.jdom.dat
+ a;uses:="com.ardor3d.annotation,com.ardor3d.extension.animation.skele
+ tal.clip,com.google.common.collect,com.ardor3d.util.export,com.ardor3
+ d.math.type,com.ardor3d.scenegraph,org.jdom,com.ardor3d.extension.ani
+ mation.skeletal,com.ardor3d.util.geom,org.jdom.xpath,com.ardor3d.imag
+ e,com.ardor3d.renderer.state"
+Built-By: amivanoff
+Tool: Bnd-1.15.0
+Bundle-Name: Ardor 3D Collada Importer
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 0.8.0.SNAPSHOT
+Build-Jdk: 1.6.0_33
+Bnd-LastModified: 1349642723597
+Bundle-ManifestVersion: 2
+Import-Package: com.ardor3d.annotation,
+ com.ardor3d.extension.animation.skeletal,
+ com.ardor3d.extension.animation.skeletal.clip,
+ com.ardor3d.image,
+ com.ardor3d.math,
+ com.ardor3d.math.type,
+ com.ardor3d.renderer,
+ com.ardor3d.renderer.queue,
+ com.ardor3d.renderer.state,
+ com.ardor3d.scenegraph,
+ com.ardor3d.scenegraph.hint,
+ com.ardor3d.util,
+ com.ardor3d.util.export,
+ com.ardor3d.util.export.binary,
+ com.ardor3d.util.geom,
+ com.ardor3d.util.resource,
+ com.google.common.collect,
+ org.jdom,
+ org.jdom.input,
+ org.jdom.xpath,
+ org.xml.sax
+Bundle-SymbolicName: com.ardor3d.collada
+

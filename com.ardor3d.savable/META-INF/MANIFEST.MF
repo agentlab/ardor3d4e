@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Export-Package: com.ardor3d.util.export
+Built-By: amivanoff
+Build-Jdk: 1.6.0_33
+Bundle-Version: 0.8.0.SNAPSHOT
+Tool: Bnd-1.15.0
+Bundle-Name: Ardor 3D Savable
+Bnd-LastModified: 1349642612067
+Created-By: Apache Maven Bundle Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ardor3d.savable
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Export-Package: com.ardor3d.extension.animation.skeletal;uses:="com.ardor3d.extension.animation.skeletal.clip,com.ardor3d.scenegraph,com.ardor3d.extension.animation.skeletal.util,com.google.common.collect,com.ardor3d.extension.animation.skeletal.layer,com.ardor3d.util,com.ardor3d.extension.animation.skeletal.state,com.ardor3d.math,com.ardor3d.math.type,com.ardor3d.annotation,com.ardor3d.util.export,com.ardor3d.renderer,com.ardor3d.renderer.state,com.ardor3d.util.geom,com.ardor3d.bounding",
+ com.ardor3d.extension.animation.skeletal.blendtree;uses:="com.ardor3d.extension.animation.skeletal.util,com.ardor3d.extension.animation.skeletal.clip,com.google.common.collect,com.ardor3d.math,com.ardor3d.extension.animation.skeletal,com.ardor3d.math.type,com.ardor3d.scenegraph", 
+ com.ardor3d.extension.animation.skeletal.clip;uses:="com.ardor3d.util.export,com.ardor3d.annotation,com.google.common.collect,com.ardor3d.extension.animation.skeletal,com.ardor3d.math,com.ardor3d.math.type,com.ardor3d.scenegraph",
+ com.ardor3d.extension.animation.skeletal.layer;uses:="com.google.common.collect,com.ardor3d.extension.animation.skeletal,com.ardor3d.extension.animation.skeletal.state,com.ardor3d.extension.animation.skeletal.blendtree,com.ardor3d.extension.animation.skeletal.util",
+ com.ardor3d.extension.animation.skeletal.state;uses:="com.ardor3d.extension.animation.skeletal,com.ardor3d.extension.animation.skeletal.layer,com.ardor3d.extension.animation.skeletal.blendtree,com.google.common.collect,com.ardor3d.math",
+ com.ardor3d.extension.animation.skeletal.state.loader;uses:="com.ardor3d.extension.animation.skeletal.util,com.ardor3d.extension.animation.skeletal.clip,com.ardor3d.extension.animation.skeletal,com.ardor3d.util.resource,javax.script,com.ardor3d.extension.animation.skeletal.blendtree,com.google.common.collect",
+ com.ardor3d.extension.animation.skeletal.util;uses:="com.google.common.collect,com.ardor3d.scenegraph,com.ardor3d.extension.animation.skeletal,com.ardor3d.math,com.ardor3d.renderer,com.ardor3d.scenegraph.shape,com.ardor3d.scenegraph.hint,com.ardor3d.renderer.state,com.ardor3d.ui.text,com.ardor3d.renderer.queue,com.ardor3d.bounding,com.ardor3d.math.type,com.ardor3d.scenegraph.visitor"
+Built-By: amivanoff
+Tool: Bnd-1.15.0
+Bundle-Name: Ardor 3D Skinning and Animation System
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Build-Jdk: 1.6.0_33
+Bundle-Version: 0.8.0.SNAPSHOT
+Bnd-LastModified: 1349642716084
+Bundle-ManifestVersion: 2
+Import-Package: com.ardor3d.annotation,
+ com.ardor3d.bounding,
+ com.ardor3d.math,
+ com.ardor3d.math.type,
+ com.ardor3d.renderer,
+ com.ardor3d.renderer.queue,
+ com.ardor3d.renderer.state,
+ com.ardor3d.scenegraph,
+ com.ardor3d.scenegraph.hint,
+ com.ardor3d.scenegraph.shape,
+ com.ardor3d.scenegraph.visitor,
+ com.ardor3d.ui.text,
+ com.ardor3d.util,
+ com.ardor3d.util.export,
+ com.ardor3d.util.geom,
+ com.ardor3d.util.resource,
+ com.google.common.collect;version="10.0.1",
+ javax.script
+Bundle-SymbolicName: com.ardor3d.animation
+
